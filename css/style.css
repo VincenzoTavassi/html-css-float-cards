@@ -11,7 +11,7 @@
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    background-color: red;
+    background-color: #FFFFFE;
 }
 
 /* Clear Fix */
@@ -31,6 +31,9 @@ body {
 h1 {
     text-align: center;
     margin: 2rem;
+    color: #E53170;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 
@@ -70,11 +73,17 @@ h2 {
 }
 
 p {
-    margin: 1rem;
+    margin: 2rem;
     text-align: center;
+    font-size: 1rem;
 }
 
 .membro-team {
-    padding: 1rem;
+    padding: 0.5rem;
     line-height: 1.5rem;
+}
+
+a[href^="mailto"] {
+    text-decoration: none;
+    color: #6FC8E3;
 }
