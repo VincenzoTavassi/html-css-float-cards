@@ -1,0 +1,54 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: red;
+}
+
+/* Clear Fix */
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content:'';
+}
+
+/* Header */
+
+h1 {
+    text-align: center;
+}
+
+
+
+/* Grid System */
+
+.column {
+
+    width: calc(100% / 3);
+    float: left;
+    padding: 2rem;
+
+}
+
+
+.card {
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+}
+
+.card > img {
+    
+    max-height: 100%;
+    float: left;
+}
