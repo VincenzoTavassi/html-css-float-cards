@@ -56,13 +56,13 @@ h1 {
 
 h2 {
     padding-bottom: 0.3rem;
-    margin-top: none;
     
 }
 .card {
-    height: 100px;
+    height: 100%;
     background-color: #0F0E17;
     color: white;
+
 }
 
 .card > img {
@@ -73,9 +73,9 @@ h2 {
 }
 
 p {
-    margin: 2rem;
-    text-align: center;
-    font-size: 1rem;
+    margin: 3rem 0;
+    text-align: justify;
+    font-size: 1.2rem;
 }
 
 .membro-team {
